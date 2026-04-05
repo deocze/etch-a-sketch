@@ -16,10 +16,19 @@
     border-style: solid;
     flex: 1;
     margin: 12px;
+    display: flex;
 }
 body{
     margin: 0px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+.bigDiv{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.lilDiv{
+    flex: 1;
 }
