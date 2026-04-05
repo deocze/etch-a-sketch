@@ -1,4 +1,15 @@
-.title,
-.gridSize{
-    text-align: center;                 
+.startingText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+.gridSize {
+  font-size: 20px;
+}
+.title,
+.gridSize {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
