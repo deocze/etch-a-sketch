@@ -12,7 +12,7 @@ gridButton.addEventListener("click", () => {
   if (gridValue <= 100) {
     generateGraph(gridValue);
   } else {
-    alert("Size too big (Make it less than or equal to 100");
+    alert("Size too big (Make it less than or equal to 100)");
   }
 });
 
